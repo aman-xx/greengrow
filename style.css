@@ -90,6 +90,7 @@ body {
 #main-content{
   justify-content: space-around;
   display: flex;
+  height: 90vh;
   flex-wrap: wrap;
 }
 #main-left {
@@ -157,4 +158,64 @@ i:hover{
 #trans-button button:hover{
   box-shadow: 5px 5px 9px #7c7c7c6f;
   cursor: pointer;
+}
+#heading2{
+padding-top: 150px;
+}
+
+#below-main h1{
+  text-align: center;
+  font-size: 28px;
+  font-family: "Lato", sans-serif;
+  color: #000000;
+}
+#below-main p{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 19px;
+  color: #525252;
+  font-family: "Lato", sans-serif;
+}
+#pots{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#box1{
+  margin: 9px;
+  border-radius: 5px;
+border: 3px solid rgb(105, 105, 105);
+height: 250px;
+width: 200px;
+}
+#box1:hover{
+box-shadow: 2px 4px 10px #2c2c2c6f;
+cursor: pointer;
+}
+#box1 h1{
+font-size: 15px;
+}
+#box1 p{
+  font-size: 10px;
+}
+#box1 img{
+  margin-top: 12px;
+  height: 160px;
+}
+#pot1{
+  margin-left: 4em;
+}
+#pot2{
+  margin-left: 3.5em;
+}
+#pot3{
+  margin-left: 3em;
+}
+#pot4{
+  margin-left: 3.5em;
+}
+#pot5{
+  margin-left: 3em;
 }
