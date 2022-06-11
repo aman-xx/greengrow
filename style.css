@@ -435,7 +435,7 @@ section {
     display: inline;
     height: 13px;
     margin: 5px;
-    font-size: 14px;
+    font-size: 19px;
     margin-top: 30px;
   }
  #main-content {
@@ -503,15 +503,27 @@ button{
   height: 390px;
 }
 #b11 img{
-  height: 290px;
+  height: 300px;
+  margin-left: 20px;
 }
 #f1{
-  margin-left: 28vw;
+  margin-left: 34vw;
 }
 #footer-pop h2{
   margin-top: -2px;
   font-size: 1.4em;
   /* margin-right: 22px; */
+}
+#chota img{
+  height: 360px;
+}
+#hidden{
+  display: inline;
+}
+
+#footer{
+/* background-color: rgb(190, 86, 86); */
+height: 500px;
 }
 
 }
