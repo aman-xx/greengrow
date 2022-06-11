@@ -340,6 +340,10 @@ section {
   color: rgb(181, 181, 181);
   z-index: -22;
 }
+#footer-pop i{
+  margin-left: 9px;
+  padding-left: 35px;
+}
 #f1 {
   height: 18em;
   margin-left: 43vw;
@@ -535,6 +539,7 @@ button{
 height: 500px;
 }
 #main-left p{
+  margin-top: -142px;
   font-size: 12px;
   line-height: 15px;
 }

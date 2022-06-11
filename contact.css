@@ -36,7 +36,7 @@
 }
 #inner-box {
   background-color: #fff;
-  height: 60vh;
+  height: 70vh;
   width: 40vw;
   border-radius: 15px;
 }
@@ -87,5 +87,10 @@ i:hover{
 @media (max-width: 477px) {
   #inner-box{
     width: 80vw;
+  }
+  #inner-box {
+    
+    height: 60vh;
+    
   }
 }
