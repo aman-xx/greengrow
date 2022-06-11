@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+#heading-for-phone{
+  display: none;
+}
 #naturelogo {
   display: flex;
   justify-content: center;
@@ -422,20 +425,28 @@ section {
   }
   /* fffffffffffffff */
   
+  #heading-for-phone{    
+    font-family: "Lato", sans-serif;
+    display: inline;
+    height: 13px;
+    margin: 5px;
+    font-size: 14px;
+    margin-top: 30px;
+  }
  #main-content {
   display: flex;
   height: 90vh;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
 }
 #main-left {  
   font-family: "Lato", sans-serif;
-  margin-top: 3vh;
+  margin-top: 0vh;
 }
-#main-left h1 {
-  color: rgb(41, 41, 41);
-  font-family: "Lato", sans-serif;
+#main-left h1 { 
+font-family: "Lato", sans-serif;
   font-size: 1em;
   font-weight: bold;
+  display: none;
 }
 button{
   margin-top: 0px;
@@ -446,11 +457,18 @@ button{
 }
 #main-left p {
   line-height: 20px;
-  margin-top: 22px;
+  margin-top: -18vh;
+  font-size: 13px;
   color: rgb(82, 82, 82);
 }
+#main-right {
+  height: 30vh;
+}
+#main-left {
+  height: 30vh;
+}
 #main-right img {
-  margin-top: 28vh;
+  margin-top: -12vh;
   height: 200px;
 }
 #color-button {
