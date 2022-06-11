@@ -250,6 +250,7 @@ section {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  height: 43vh;
 }
 .footer-box {
   padding: 20px;
@@ -322,6 +323,7 @@ section {
   flex-wrap: wrap;
 }
 #footer-pop {
+
   position: relative;
   height: 100vh;
 }
@@ -369,6 +371,9 @@ section {
   }
   .footer-box {
     margin: 1px;
+  }
+  #hidden{
+    display: none;
   }
 }
 
@@ -487,4 +492,26 @@ button{
 #trans-button button:hover {
   box-shadow: 5px 5px 9px #7c7c7c6f;
   cursor: pointer;
-}}
+}
+#naturelogo img{
+  margin-right: 12vw;
+}
+#below-main h1{
+  font-size: 1.5em;
+}
+#para1 img{
+  height: 390px;
+}
+#b11 img{
+  height: 290px;
+}
+#f1{
+  margin-left: 28vw;
+}
+#footer-pop h2{
+  margin-top: -2px;
+  font-size: 1.4em;
+  /* margin-right: 22px; */
+}
+
+}
