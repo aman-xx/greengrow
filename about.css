@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.main {
+  position: relative;
+  height: 100vh;
+  animation: changing 10s linear infinite;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes changing {
+  0% {
+    background-color: #e2eeed;
+  }
+  20% {
+    background-color: rgb(181, 255, 254);
+  }
+  40% {
+    background-color: rgb(254, 173, 244);
+  }
+  60% {
+    background-color: rgb(243, 250, 156);
+  }
+  80% {
+    background-color: rgb(252, 199, 165);
+  }
+  100% {
+    background-color: #e2eeed;
+  }
+}
+
+
+#box{
+  background-color: #fff;
+  /* height: 60vh; */
+  width: 60vw;
+  border-radius: 15px;
+}
+#box p{
+  padding-top: 25px;
+  font-size: 1em;
+  font-family: sans-serif;
+  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 25px;
+ text-align: center;
+}
+
+p{
+  font-size: 1em;
+}
+
+h5{
+  font-size: 1em;
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+}
+h3{
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+#main-content{
+  font-size: 1vw;
+}
+.main i{
+  position: absolute;
+left: 10px;
+color: black;
+font-size: 22px;
+top: 10px;
+}
+.main i:hover{
+  color: rgb(77, 77, 77);
+}

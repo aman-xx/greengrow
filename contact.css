@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@700&display=swap");
+
+#full-page {
+  width: 100%;
+  height: 100vh;
+  animation: changing 10s linear infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes changing {
+  0% {
+    background-color: #e2eeed;
+  }
+  20% {
+    background-color: rgb(181, 255, 254);
+  }
+  40% {
+    background-color: rgb(254, 173, 244);
+  }
+  60% {
+    background-color: rgb(243, 250, 156);
+  }
+  80% {
+    background-color: rgb(252, 199, 165);
+  }
+  100% {
+    background-color: #e2eeed;
+  }
+}
+#inner-box {
+  background-color: #fff;
+  height: 60vh;
+  width: 40vw;
+  border-radius: 15px;
+}
+#full-page h2 {
+  margin-bottom: 3em;
+  color: rgb(57, 56, 56);
+  font-weight: bold;
+  font-size: 1.3em;
+  font-family: "Lato", sans-serif;
+}
+#full-page h3 {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1em;
+  color: rgb(44, 44, 44);
+}
+.beside{    
+    display: flex;
+    justify-content: space-around;
+}
+i{
+  padding: 15px;
+  /* margin-top: 4px; */
+  font-size: 22px;
+  text-decoration: none;
+  color: rgb(45, 45, 45);
+}
+i:hover{
+    color: #7d7d7d;
+}
+#first-ig{
+    margin-top: 40px;
+    /* border: 1px solid black; */
+}
+#full-page p{
+  position: relative;
+    font-family: "Lato", sans-serif;
+    /* padding: -3px; */
+    font-size: 19px;
+    font-weight: 500;
+    margin: 15px;
+}
+#home{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+@media (max-width: 477px) {
+  #inner-box{
+    width: 80vw;
+  }
+}
