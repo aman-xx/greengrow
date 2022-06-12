@@ -88,9 +88,7 @@ i:hover{
   #inner-box{
     width: 80vw;
   }
-  #inner-box {
-    
-    height: 60vh;
-    
+  #inner-box {    
+    height: 68vh;    
   }
 }
